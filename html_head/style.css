@@ -7,3 +7,16 @@
 	height: 432px;
 	width: auto;
 }
+
+body {
+    font-family: 'Tiny5', serif;
+    font-weight: 600;
+}
+
+.tiny5-regular {
+	font-family: "Tiny5", serif;
+	font-weight: 400;
+	font-style: normal;
+  }
+  
+  
