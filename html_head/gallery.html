@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
 		<title>Image Gallery</title>
 		<link rel="stylesheet" href="style.css">
@@ -10,7 +10,18 @@
 			<a href="gallery.html" alt="art gallery page">Art Gallery</a>
 		</nav>
 		<h1>Art Examples</h1>
-		<p><img src="images/elephant.png"><img src="images/thunder.png"><img src="images/pizzatree.png"><img src="images/pirates.png"><img src="images/halloween.png"><img src="images/character.png"></p>
+		<p>
+			<img src="images/elephant.png" class="constrained_image">
+			<img src="images/thunder.png" class="constrained_image">
+			<img src="images/pizzatree.png" class="constrained_image">
+			<img src="images/pirates.png" class="constrained_image">
+			<img src="images/halloween.png" class="constrained_image">
+			<img src="images/character.png" class="constrained_image">
+			<!-- note to self, controls adds controls to video so it doesn't play auto -->
+			<video class="constrained_video" controls>
+				<source src="images/gamebg.mov" type="video/mp4">
+			</video>
+		</p>
 		<footer>
 
 		</footer>
