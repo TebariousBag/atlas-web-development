@@ -15,6 +15,7 @@ body {
 	margin: 0;
 	padding: 0;
 	background-color: rgb(117, 223, 223);
+
 }
 
 p {
@@ -35,7 +36,7 @@ h1, h2, h3, h4, h5, h6 {
 nav {
 	text-align: center;
 	font-size: 3em;
-	background-color: #333;
+	background-color: #000000;
 	color: white;
 }
 
@@ -63,7 +64,7 @@ nav a:hover {
 	transition: opacity 0.1s ease;
 }
 
-p {
+.main-content {
 	background-color: rgb(60, 60, 60);
 	color: white;
 }
@@ -79,10 +80,32 @@ p {
 	font-optical-sizing: auto;
 	font-weight: 400;
 	font-style: normal;
+	background-color: rgb(60, 60, 60);
+	color: white;
 }
   
-  
 .home-images img {
-	border: 6px solid black;
+	border: 6px solid rgb(0, 0, 0);
+	margin-top: 15px;
+	margin-bottom: 15px;
 	display: inline-block;
+
+}
+
+.gallery-images {
+	background-color: rgb(60, 60, 60);
+	margin-left: 220px;
+	margin-right: 220px;
+}
+
+.home-banner {
+	background-color: rgb(0, 0, 0);
+}
+
+.footer {
+	background-color: rgb(0, 0, 0);
+}
+
+.footer-text {
+	color: rgb(255, 255, 255);
 }
