@@ -1,3 +1,2 @@
-# atlas-web-development
-
-## update as we progress
+# Atlas-Web-Development
+## HTML Advanced
