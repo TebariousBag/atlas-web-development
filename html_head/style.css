@@ -24,9 +24,18 @@ p {
 	padding: 10px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2	{
 	background-color: rgb(61, 74, 114);
-	color: rgb(255, 247, 138);
+	color: rgb(190, 194, 252);
+	margin: 0 auto;
+	max-width: 1300px;
+	padding: 10px;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+h3, h4, h5, h6 {
+	background-color: rgb(61, 74, 114);
+	color: rgb(168, 168, 168);
 	margin: 0 auto;
 	max-width: 1300px;
 	padding: 10px;
