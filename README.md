@@ -1,2 +1,3 @@
 # Atlas-Web-Development
-## HTML Advanced
+## 1. HTML HEAD
+## 2. HTML Advanced
