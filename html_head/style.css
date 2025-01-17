@@ -23,21 +23,38 @@ p {
 	max-width: 1200px;
 	padding: 10px;
 }
-
-h1, h2	{
+h1	{
 	background-color: rgb(61, 74, 114);
 	color: rgb(190, 194, 252);
+	outline-style: solid;
+	outline-width: 3px;
+	outline-color: rgb(0, 0, 0);
 	margin: 0 auto;
-	max-width: 1300px;
+	max-width: 1475px;
+	padding: 10px;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+h2	{
+	background-color: rgb(61, 74, 114);
+	color: rgb(190, 194, 252);
+	outline-style: solid;
+	outline-width: 3px;
+	outline-color: rgb(0, 0, 0);
+	margin: 0 auto;
+	max-width: 1350px;
 	padding: 10px;
 	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
 
 h3, h4, h5, h6 {
-	background-color: rgb(61, 74, 114);
+	background-color: rgb(48, 58, 90);
 	color: rgb(168, 168, 168);
+	outline-style: dotted;
+	outline-width: 3px;
+	outline-color: rgb(0, 0, 0);
 	margin: 0 auto;
-	max-width: 1300px;
+	max-width: 1250px;
 	padding: 10px;
 	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
