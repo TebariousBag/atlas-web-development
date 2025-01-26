@@ -8,3 +8,13 @@
 .header_logo {
 
 }
+
+.banner {
+	background-image: url("images/pic_1.jpg");
+	width: 1440px;
+	height: 1093px;
+	color: white;
+}
+.footer {
+	background-color: #071629;
+}
