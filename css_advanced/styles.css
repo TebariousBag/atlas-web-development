@@ -76,11 +76,10 @@
 .quote_section {
 	display: flex;
 	justify-content: center;
-	width: 1400px;
-	height: auto;
+	width: 1440px;
+	height: 392px;
 	background-color: #C271FF;
 	color: white;
-	padding: 20px;
 }
 
 .quote_img {
@@ -98,8 +97,3 @@
 	text-align: left;
 }
 
-.quote_text {
-	font-size: 20px;
-	font-weight: 700;
-	text-align: left;
-}
