@@ -99,12 +99,35 @@
 
 .video_section {
 	display: flex;
+	flex-direction: colomn;
 	justify-content: center;
 	width: 1440px;
 	height: 392px;
-	background-color: #071629;
+	background-color: #ffffff;
+	color: #071629;
+}
+
+.h1_videos {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	font-weight: 300;
+	font-size: 32px;
 	color: white;
 }
+
+.video_div {
+	display: flex;
+	color: #071629;
+	width: 1228px;
+	height: 450px;
+	height: auto;
+	padding: 20px;
+	align-items: center;
+	text-align: left;
+}
+
 
 .smile_imgs {
 	width: 255px;
