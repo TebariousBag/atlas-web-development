@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
+
+/* USE THIS FORMAT FOR REFERENCE ON GETTING THE REST SETUP */
 .header_div	{
 	display: flex;
 	flex-direction: row;
@@ -16,9 +19,50 @@
 	left: 0px; /* changed to 0px since the parent container is already where it needs to be */
 	width: 167.02px;
 	height: 29.46px;
-	
-
 }
+
+.nav_bar {
+	position: absolute;
+	left: 869.41px; /* might be an easier way to do this, but i'm subtracting the left here from the left of the of the parent container */
+	margin-top: 1.98px; /* same here, except top */
+	width: 234px;
+	height: 15px;
+}
+
+.courses {
+	position: absolute;
+	left: 0px;
+	width: 50px;
+	height: 15px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 15.08px;
+}
+
+.pricing {
+	position: absolute;
+	left: 102px;
+	width: 45px;
+	height: 15px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 15.08px;
+}
+
+.login {
+	position: absolute;
+	left: 200px;
+	width: 34px;
+	height: 15px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 15.08px;
+}
+
+/* END OF HEADER */
 
 .body {
 	justify-content: center;
