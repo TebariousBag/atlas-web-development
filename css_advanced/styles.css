@@ -2,20 +2,36 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	background-color: #071629;
 	color: white;
-	width: 1440px;
+	width: 1103.41px;
+	height: 29.46px;
+	margin-top: 35.02px;
+	margin-left: 171.59px;
+	position: relative; /* make container relative, and position insides at absolute */
 }
 
 .header_logo {
+	position: absolute; /* same as above comment, set the inside content to absolute */
+	/* then take the top and left from Figma, and apply here */
+	left: 0px; /* changed to 0px since the parent container is already where it needs to be */
+	width: 167.02px;
+	height: 29.46px;
+	
 
+}
+
+.body {
+	justify-content: center;
+	background-image: url("images/pic_1.jpg");
+	background-repeat: no-repeat;
+	width: 1440px;
+	height: 1093px;
 }
 
 .banner {
 	display: flex;
 	flex-direction: column;
 	margin-top: 0px;
-	background-image: url("images/pic_1.jpg");
 	width: 1440px;
 	height: 1093px;
 
