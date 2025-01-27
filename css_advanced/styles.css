@@ -97,3 +97,27 @@
 	text-align: left;
 }
 
+.video_section {
+	display: flex;
+	justify-content: center;
+	width: 1440px;
+	height: 392px;
+	background-color: #071629;
+	color: white;
+}
+
+.smile_imgs {
+	width: 255px;
+	height: 154px;
+}
+
+.little_portraits {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+}
+
+.stars {
+	width: 15px;
+	height: 15px;
+}
