@@ -206,7 +206,7 @@
 .profile2 {
 	display: flex;
 	position: absolute;
-	width:auto;
+	width: 150px;
 	height: 237px;
 	top: 120px;
 	left: 506px;
@@ -237,7 +237,9 @@
 	line-height: 27px;
 	position: absolute;
 	top: 145px;
-	left: 15px;
+	left: 0px;
+	text-align: center;
+	width: 150px;
 }
 
 .quote_section {
