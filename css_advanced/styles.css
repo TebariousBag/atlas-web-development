@@ -179,8 +179,9 @@
 	color: white;
 	justify-content: center;
 	margin-top: 168px;
-	margin-left: 164px;
+	margin-left: center;
 	text-align: center;
+	padding: 60px;
 }
 
 .button_2 {
