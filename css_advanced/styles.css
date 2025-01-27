@@ -167,7 +167,7 @@
 	line-height: 40.22px;
 	position: absolute;
 	top: 631px;
-	left: 595px;
+	left: 600px;
 	width: 261px;
 	height: 40px;
 }
@@ -179,16 +179,55 @@
 	width: 100%;
 }
 
+/* STARTING PROFILE PHOTO SECTION */
+
 .profile_container	{
 	justify-content: center;
 	display: flex;
 	flex-direction: row;
+	position: relative;
 }
 
-.profile_image1 {
+/* rounding all profile images */
+.profile_images {
 	width: 150px;
 	height: 150px;
 	border-radius: 50%;
+}
+.profile1 {
+	display: flex;
+	position: absolute;
+	width: 150px;
+	height: 237px;
+	top: 120px;
+	left: 217px;
+}
+
+.profile2 {
+	display: flex;
+	position: absolute;
+	width: 150px;
+	height: 237px;
+	top: 120px;
+	left: 506px;
+}
+
+.profile3 {
+	display: flex;
+	position: absolute;
+	width: 150px;
+	height: 237px;
+	top: 120px;
+	left: 787px;
+}
+
+.profile4 {
+	display: flex;
+	position: absolute;
+	width: 150px;
+	height: 237px;
+	top: 120px;
+	left: 1076px;
 }
 
 .quote_section {
