@@ -10,11 +10,43 @@
 }
 
 .banner {
+	display: flex;
+	flex-direction: column;
+	margin-top: 0px;
 	background-image: url("images/pic_1.jpg");
-	width: 1440px;
-	height: 1093px;
+	justify-content: center;
 	color: white;
 }
+
+.get_schooled {
+	margin-top: 20px;
+	text-align: center;
+	justify-content: center;
+}
+
+.learn_from_pros {
+	text-align: center;
+	justify-content: center;
+	margin-top: 40px;
+	width: 100%;
+}
+
+.profile_images	{
+	justify-content: center;
+	display: flex;
+	flex-direction: row;
+}
+
+.button_1 {
+	background-color: #C271FF;
+	color: white;
+	width: 162px;
+	height: 44px;
+	border-radius: 22px;
+	border: none;
+	
+}
+
 .footer {
 	background-color: #071629;
 }
