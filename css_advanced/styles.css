@@ -102,13 +102,15 @@
 	flex-direction: column;
 	justify-content: center;
 	width: 1440px;
-	height: 392px;
+	height: auto;
 	background-color: #ffffff;
 	color: #071629;
+	align-items: center;
 }
 
 .h1_videos {
 	text-align: center;
+	justify-content: center;
 	font-weight: 300;
 	font-size: 32px;
 	color:  #071629;
@@ -117,12 +119,12 @@
 
 .video_div {
 	display: flex;
+	flex-direction: row;
 	color: #071629;
 	width: 1228px;
 	height: 450px;
 	height: auto;
 	padding: 20px;
-	justify-content: center;
 	text-align: left;
 }
 
