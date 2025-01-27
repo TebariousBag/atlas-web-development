@@ -199,7 +199,7 @@
 	flex-direction: column;
 	justify-content: center;
 	width: 1440px;
-	height: 502px;
+	height: auto;
 	background-color: #ffffff;
 	color: #071629;
 	align-items: center;
@@ -212,6 +212,29 @@
 	font-size: 60px;
 	color:  #071629;
 	margin-bottom: 20px;
+	width: 136px;
+	height: 75px;
+}
+
+.faq_h2 {
+	text-align: left;
+	justify-content: center;
+	font-weight: 700;
+	font-size: 16px;
+	color:  #071629;
+	margin-bottom: 20px;
+}
+
+.faq_p {
+	text-align: left;
+	white-space: normal;
+	margin-top: 50px;
+	justify-content: center;
+	font-weight: 400;
+	font-size: 16px;
+	color:  #071629;
+	width: 350px;
+	height: 192px;
 }
 
 .faq_container {
@@ -233,6 +256,7 @@
 	height: auto;
 	padding: 0px;
 	text-align: left;
+	margin-left: ;
 }
 
 .faq_row2 {
