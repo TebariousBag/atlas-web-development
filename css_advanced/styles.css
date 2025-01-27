@@ -258,15 +258,23 @@
 .footer_logo {
 	display: flex;
 	margin-left: 165px;
-	margin-top: 95px;
-	width: 169px;
-	height: 30ps;
+	align-items: center;
 }
 
 .footer_links {
 	display: flex;
-	margin-left: 1070px;
-	margin-top: 90px;
-	width: 130px;
+	margin-right: 165px;
+	align-items: center;
+}
+
+.copyright {
+	width: 1440px;
 	height: 30px;
+	color: rgb(132, 125, 125);
+	background-color: #071629;
+	align-items: center;
+	text-align: center;
+	margin-top: 0px;
+	font-weight: 400;
+	font-size: 12px;
 }
