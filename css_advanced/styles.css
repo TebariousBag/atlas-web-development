@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
 
+.body {
+	justify-content: center;
+	background-image: url("images/pic_1.jpg");
+	background-repeat: no-repeat;
+	width: 1440px;
+	height: 1093px;
+}
+
 /* USE THIS FORMAT FOR REFERENCE ON GETTING THE REST SETUP */
 .header_div	{
 	display: flex;
@@ -62,15 +70,7 @@
 	line-height: 15.08px;
 }
 
-/* END OF HEADER */
-
-.body {
-	justify-content: center;
-	background-image: url("images/pic_1.jpg");
-	background-repeat: no-repeat;
-	width: 1440px;
-	height: 1093px;
-}
+/* START OF BANNER */
 
 .banner {
 	display: flex;
@@ -84,16 +84,74 @@
 }
 
 .register_section {
-	margin-top: 0px;
-	text-align: center;
+	display: flex;
+	flex-direction: column;
 	justify-content: center;
-	font-weight: 700;
-	font-size: 16px;
 }
 
 .get_schooled {
+	font-family: 'Source Sans Pro', sans-serif;
+	position: absolute;
+	top: 120px;
+	left: 377px;
+	width: 684px;
+	height: 151px;
 	font-weight: 700;
 	font-size: 120px;
+	line-height: 150.84px;
+}
+
+.smiles {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700px;
+	font-size: 16px;
+	line-height: 20.11px;
+	position: absolute;
+	top: 361px;
+	left: 593px;
+	width: 52px;
+	height: 20px;
+}
+
+.grin {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700px;
+	font-size: 16px;
+	line-height: 20.11px;
+	position: absolute;
+	top: 361px;
+	left: 704px;
+	width: 36px;
+	height: 20px;
+}
+
+.laugh {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700px;
+	font-size: 16px;
+	line-height: 20.11px;
+	position: absolute;
+	top: 361px;
+	left: 797px;
+	width: 49px;
+	height: 20px;
+}
+
+.button_1 {
+	position: absolute;
+	background-color: #C271FF;
+	color: white;
+	width: 162px;
+	height: 44px;
+	top: 419px;
+	left: 639px;
+	border-radius: 50px;
+	border: none;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 17.6px;
+	box-shadow: 0px 2px 20px 0px black; /* for future, x offset, y offset, blur radius, spread
 }
 
 .learn_from_pros {
@@ -117,16 +175,6 @@
 	width: 150px;
 	height: 150px;
 	border-radius: 50%;
-}
-
-.button_1 {
-	background-color: #C271FF;
-	color: white;
-	width: 162px;
-	height: 44px;
-	border-radius: 22px;
-	border: none;
-	
 }
 
 .quote_section {
