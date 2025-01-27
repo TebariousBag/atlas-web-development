@@ -4,6 +4,7 @@
 	justify-content: center;
 	background-color: #071629;
 	color: white;
+	width: 1440px;
 }
 
 .header_logo {
@@ -15,14 +16,24 @@
 	flex-direction: column;
 	margin-top: 0px;
 	background-image: url("images/pic_1.jpg");
+	width: 1440px;
+	height: 1093px;
+
 	justify-content: center;
 	color: white;
 }
 
-.get_schooled {
-	margin-top: 20px;
+.register_section {
+	margin-top: 0px;
 	text-align: center;
 	justify-content: center;
+	font-weight: 700;
+	font-size: 16px;
+}
+
+.get_schooled {
+	font-weight: 700;
+	font-size: 120px;
 }
 
 .learn_from_pros {
@@ -30,12 +41,22 @@
 	justify-content: center;
 	margin-top: 40px;
 	width: 100%;
+	font-family: Source Sans Pro;
+	font-weight: 400;
+	font-size: 16px;
+
 }
 
 .profile_images	{
 	justify-content: center;
 	display: flex;
 	flex-direction: row;
+}
+
+.profile_image {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
 }
 
 .button_1 {
@@ -50,4 +71,35 @@
 
 .footer {
 	background-color: #071629;
+}
+
+.quote_section {
+	display: flex;
+	justify-content: center;
+	width: 1400px;
+	height: auto;
+	background-color: #C271FF;
+	color: white;
+	padding: 20px;
+}
+
+.quote_img {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	margin-right: 20px;
+}
+
+.quote_div {
+	display: flex;
+	color: white;
+	padding: 20px;
+	align-items: center;
+	text-align: left;
+}
+
+.quote_text {
+	font-size: 20px;
+	font-weight: 700;
+	text-align: left;
 }
