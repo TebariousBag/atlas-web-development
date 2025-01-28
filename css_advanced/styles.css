@@ -31,7 +31,7 @@
 
 .nav_bar {
 	position: absolute;
-	left: 869.41px; /* might be an easier way to do this, but i'm subtracting the left here from the left of the of the parent container */
+	left: 860.41px; /* might be an easier way to do this, but i'm subtracting the left here from the left of the of the parent container */
 	margin-top: 1.98px; /* same here, except top */
 	width: 234px;
 	height: 15px;
