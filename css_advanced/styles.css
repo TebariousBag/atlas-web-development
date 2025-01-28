@@ -521,6 +521,18 @@
 	text-align: left;
 }
 
+.footer_container {
+	display: flex;
+	position: absolute;
+	flex-direction: column;
+	justify-content: center;
+	color: white;
+	background-color: #071629;
+	width: 1440px;
+	height: 249px;
+	margin-top: 0px;
+	position: relative; /* make container relative, and position insides at absolute */
+}
 .footer {
 	background-color: #071629;
 	width: 1440px;
@@ -533,24 +545,29 @@
 
 .footer_logo {
 	display: flex;
-	margin-left: 165px;
+	flex-direction: row;
+	position: absolute;
 	align-items: center;
 }
 
 .footer_links {
 	display: flex;
-	margin-right: 165px;
+	flex-direction: row;
+	position: absolute;
 	align-items: center;
+	left: 1100px;
 }
 
 .copyright {
-	width: 1440px;
-	height: 30px;
+	display: flex;
+	position: absolute;
+	width: 96px;
+	height: 15px;
 	color: rgb(132, 125, 125);
-	background-color: #071629;
 	align-items: center;
 	text-align: center;
-	margin-top: 0px;
 	font-weight: 400;
 	font-size: 12px;
+	top: 180px;
+	left: 670px;
 }
