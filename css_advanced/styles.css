@@ -284,19 +284,65 @@
 	left: 0px;
 }
 
-.quote_img {
-	width: 150px;
-	height: 150px;
-	border-radius: 50%;
-	margin-right: 20px;
-}
-
 .quote_div {
 	display: flex;
+	flex-direction: row;
 	color: white;
 	padding: 20px;
 	align-items: center;
 	text-align: left;
+}
+
+.quote_img {
+	display: flex;
+	position: absolute;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	left: 250px;
+	align-items: center;
+}
+
+.quote_text {
+	display: flex;
+	position: absolute;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 33.6px;
+	width: 820px;
+	height: 68px;
+	left: 400px;
+	top: 110px;
+	margin: 0;
+	padding: 0;
+}
+
+.person_name {
+	display: flex;
+	position: absolute;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 33.6px;
+	width: 129px;
+	height: 34px;
+	top: 80px;
+	left: 38px;
+}
+
+.weather_presenter {
+	display: flex;
+	position: absolute;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	font-size: 22px;
+	font-style: italic;
+	line-height: 33.6px;
+	width: 195px;
+	height: 34px;
+	top: 115px;
+	left: 38px;
 }
 
 .video_section {
