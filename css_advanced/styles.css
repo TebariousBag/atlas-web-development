@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap');
-.body {
+
+
+.header {
+	display: flex;
 	justify-content: center;
 	background-image: url("images/pic_1.jpg");
-	background-repeat: no-repeat;
 	width: 1440px;
 	height: 1093px;
+	align-items: center;
 }
-
 /* USE THIS FORMAT FOR REFERENCE ON GETTING THE REST SETUP */
 .header_div	{
 	display: flex;
@@ -19,6 +21,7 @@
 	margin-top: 35.02px;
 	margin-left: 171.59px;
 	position: relative; /* make container relative, and position insides at absolute */
+	
 }
 
 .header_logo {
@@ -265,13 +268,18 @@
 
 /* END OF HEADER */
 
+/* START OF QUOTE SECTION */
+
 .quote_section {
 	display: flex;
+	position: relative;
 	justify-content: center;
 	width: 1440px;
 	height: 392px;
 	background-color: #C271FF;
 	color: white;
+	top: 0px;
+	left: 0px;
 }
 
 .quote_img {
