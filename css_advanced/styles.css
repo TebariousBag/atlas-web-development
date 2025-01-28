@@ -534,6 +534,9 @@
 	position: relative; /* make container relative, and position insides at absolute */
 }
 .footer {
+	display: flex;
+	justify-content: space-between;
+	position: relative;
 	background-color: #071629;
 	width: 1440px;
 	height: 249px;
@@ -547,15 +550,38 @@
 	display: flex;
 	flex-direction: row;
 	position: absolute;
-	align-items: center;
+	top: 100px;
+	left: 230px;
 }
 
 .footer_links {
 	display: flex;
 	flex-direction: row;
 	position: absolute;
-	align-items: center;
+	top: 100px;
 	left: 1100px;
+}
+
+.facebook {
+	display: flex;
+	flex-direction: row;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.twitter {
+	display: flex;
+	position: absolute;
+	top: 0px;
+	left: 50px;
+}
+
+.instagram {
+	display: flex;
+	position: absolute;
+	top: 0px;
+	left: 100px;
 }
 
 .copyright {
