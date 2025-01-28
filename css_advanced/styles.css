@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap');
 .body {
 	justify-content: center;
 	background-image: url("images/pic_1.jpg");
@@ -106,8 +106,8 @@
 	font-size: 16px;
 	line-height: 20.11px;
 	position: absolute;
-	top: 361px;
-	left: 593px;
+	top: 346px;
+	left: 598px;
 	width: 52px;
 	height: 20px;
 }
@@ -118,8 +118,8 @@
 	font-size: 16px;
 	line-height: 20.11px;
 	position: absolute;
-	top: 361px;
-	left: 704px;
+	top: 346px;
+	left: 709px;
 	width: 36px;
 	height: 20px;
 }
@@ -130,8 +130,8 @@
 	font-size: 16px;
 	line-height: 20.11px;
 	position: absolute;
-	top: 361px;
-	left: 797px;
+	top: 346px;
+	left: 802px;
 	width: 49px;
 	height: 20px;
 }
