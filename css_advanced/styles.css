@@ -35,6 +35,8 @@
 	margin-top: 1.98px; /* same here, except top */
 	width: 234px;
 	height: 15px;
+	text-decoration: none;
+	color: white;
 }
 
 .courses {
@@ -46,6 +48,8 @@
 	font-weight: 700;
 	font-size: 12px;
 	line-height: 15.08px;
+	text-decoration: none;
+	color: white;
 }
 
 .pricing {
@@ -57,6 +61,8 @@
 	font-weight: 700;
 	font-size: 12px;
 	line-height: 15.08px;
+	text-decoration: none;
+	color: white;
 }
 
 .login {
@@ -68,6 +74,8 @@
 	font-weight: 700;
 	font-size: 12px;
 	line-height: 15.08px;
+	text-decoration: none;
+	color: white;
 }
 
 /* START OF BANNER */
