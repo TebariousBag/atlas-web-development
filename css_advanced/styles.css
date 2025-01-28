@@ -13,6 +13,7 @@
 /* USE THIS FORMAT FOR REFERENCE ON GETTING THE REST SETUP */
 .header_div	{
 	display: flex;
+	position: absolute;
 	flex-direction: row;
 	justify-content: center;
 	color: white;
@@ -28,14 +29,15 @@
 	position: absolute; /* same as above comment, set the inside content to absolute */
 	/* then take the top and left from Figma, and apply here */
 	left: 0px; /* changed to 0px since the parent container is already where it needs to be */
+	top: 35.02px;
 	width: 167.02px;
 	height: 29.46px;
 }
 
 .nav_bar {
 	position: absolute;
-	left: 860.41px; /* might be an easier way to do this, but i'm subtracting the left here from the left of the of the parent container */
-	margin-top: 1.98px; /* same here, except top */
+	left: 873.98px; /* might be an easier way to do this, but i'm subtracting the left here from the left of the of the parent container */
+	top: 37px;
 	width: 234px;
 	height: 15px;
 	text-decoration: none;
@@ -102,8 +104,8 @@
 .get_schooled {
 	font-family: 'Source Sans Pro', sans-serif;
 	position: absolute;
-	top: 120px;
-	left: 377px;
+	top: 125px;
+	left: 387px;
 	width: 684px;
 	height: 151px;
 	font-weight: 700;
@@ -210,16 +212,16 @@
 	position: absolute;
 	width: 150px;
 	height: 237px;
-	top: 120px;
+	top: 160px;
 	left: 217px;
 }
 
 .profile2 {
 	display: flex;
 	position: absolute;
-	width: 150px;
+	width: 160px;
 	height: 237px;
-	top: 120px;
+	top: 150px;
 	left: 506px;
 }
 
@@ -228,7 +230,7 @@
 	position: absolute;
 	width: 150px;
 	height: 237px;
-	top: 120px;
+	top: 160px;
 	left: 787px;
 }
 
@@ -237,7 +239,7 @@
 	position: absolute;
 	width: 150px;
 	height: 237px;
-	top: 120px;
+	top: 160px;
 	left: 1076px;
 }
 
