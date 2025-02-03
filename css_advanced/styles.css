@@ -423,13 +423,14 @@
 
 .lorem_p {
 	display:flex;
+	position: relative;
 	font-family: 'Source Sans Pro', sans-serif;
+	color: rgba(7, 22, 41, 0.5);
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 24px;
 	width: 242px;
 	height: 48px;
-	top: 200px;
 	margin-left: 10px;
 
 }
@@ -444,7 +445,7 @@
 	display: flex;
 	position: absolute;
 	flex-direction: row;
-	top: 355px;
+	top: 345px;
 }
 
 .time {
@@ -452,7 +453,7 @@
 	position: absolute;
 	width: 34px;
 	height: 27px;
-	top: 335px;
+	top: 330px;
 	left: 220px;
 	font-family: 'Source Sans Pro', sans-serif;
 	color: #C271FF;
@@ -475,6 +476,7 @@
 .stars {
 	width: 15px;
 	height: 15px;
+	padding: 5px;
 }
 
 .members_section {
