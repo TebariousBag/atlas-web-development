@@ -507,6 +507,9 @@
 	padding-right: 10px;
 }
 
+/* end of video section */
+/* start of members section */
+
 .members_section {
 	display: flex;
 	flex-direction: column;
@@ -522,10 +525,22 @@
 .h1_members {
 	text-align: center;
 	justify-content: center;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 300;
 	font-size: 32px;
+	line-height: 40.22px;
 	color:  white;
 	margin-bottom: 20px;
+	margin-top: 75px;;
+}
+
+.free {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 40.22px;
+	color: #C271FF;
+	line-height: 40.22px;
 }
 
 .members_div_container {
@@ -539,11 +554,38 @@
 	display: flex;
 	flex-direction: column;
 	color: white;
-	justify-content: center;
-	margin-top: 168px;
+	align-items: center;
+	margin-top: -20px;
 	margin-left: center;
 	text-align: center;
 	padding: 60px;
+}
+
+.smiley_imgs {
+	width: 43.67px;
+	height: 35.35px;
+}
+
+.lorem_h2 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 26px;
+	color: white;
+	margin-top: 20px;
+	width: 256px;
+	height: 26px;
+}
+
+.member_p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 26px;
+	color: white;
+	margin-top: 0px;
+	width: 212px;
+	height: 52px;
 }
 
 .button_2 {
