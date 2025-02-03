@@ -610,6 +610,9 @@
 	cursor: pointer;
 }
 
+/* end of members section */
+/* start of faq section */
+
 .faq_section {
 	display: flex;
 	flex-direction: column;
@@ -624,9 +627,12 @@
 .faq_header {
 	text-align: center;
 	justify-content: center;
+	font-family: 'source sans pro', sans-serif;
 	font-weight: 300;
 	font-size: 60px;
+	line-height: 75.42px;
 	color:  #071629;
+	margin-top: 75px;
 	margin-bottom: 20px;
 	width: 136px;
 	height: 75px;
@@ -635,8 +641,10 @@
 .faq_h2 {
 	text-align: left;
 	justify-content: center;
+	font-family: 'source sans pro', sans-serif;
 	font-weight: 700;
 	font-size: 16px;
+	line-height: 20.11px;
 	color:  #071629;
 	margin-bottom: 20px;
 }
@@ -644,12 +652,14 @@
 .faq_p {
 	text-align: left;
 	white-space: normal;
-	margin-top: 50px;
+	margin-top: 20px;
 	justify-content: center;
+	font-family: 'source sans pro', sans-serif;
 	font-weight: 400;
 	font-size: 16px;
-	color:  #071629;
-	width: 350px;
+	line-height: 24px;
+	color:  rgba(7, 22, 41, 0.5);
+	width: 405px;
 	height: 192px;
 }
 
@@ -657,13 +667,20 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	align-items: center;
 	color: #071629;
 	width: 920px;
 	height: 707;
 	padding: 20px;
 	text-align: left;
+	margin-top: 40px;
 }
-
+.faq_div {
+	display: flex;
+	flex-direction: column;
+	margin-right: 200px;
+	margin-bottom: 100px;
+}
 .faq_row1 {
 	display: flex;
 	flex-direction: row;
@@ -672,7 +689,8 @@
 	height: auto;
 	padding: 0px;
 	text-align: left;
-	margin-left: ;
+	margin-right: 0px;
+	margin-left: 200px;
 }
 
 .faq_row2 {
@@ -683,7 +701,11 @@
 	height: auto;
 	padding: 0px;
 	text-align: left;
+	margin-right: 0px;
 }
+
+/* end of faq section */
+/* start of footer section */
 
 .footer_container {
 	display: flex;
