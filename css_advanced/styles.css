@@ -376,7 +376,6 @@
 	height: 450px;
 	height: auto;
 	padding: 20px;
-	text-align: left;
 }
 
 .div_vid {
@@ -387,13 +386,13 @@
 	width: 350px;
 	height: 450px;
 	padding: 20px;
-	text-align: left;
 }
 
 .pic_name {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
+	margin-left: 10px;
 }
 
 .name_phillip {
@@ -407,11 +406,38 @@
 	width: 86px;
 	height: 27px;
 	left: 56px;
+	margin-left: 10px;
+}
+
+.smile_h2 {
+	display: flex;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #071629;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 20.11px;
+	width: 106px;
+	height: 20px;
+	margin-left: 10px;
+}
+
+.lorem_p {
+	display:flex;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	width: 242px;
+	height: 48px;
+	top: 200px;
+	margin-left: 10px;
+
 }
 
 .ratings {
 	display: flex;
 	align-items: center;
+	margin-left: 10px;
 }
 
 .stars_container {
