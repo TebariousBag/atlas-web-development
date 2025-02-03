@@ -409,6 +409,32 @@
 	left: 56px;
 }
 
+.ratings {
+	display: flex;
+	align-items: center;
+}
+
+.stars_container {
+	display: flex;
+	position: absolute;
+	flex-direction: row;
+	top: 355px;
+}
+
+.time {
+	display: flex;
+	position: absolute;
+	width: 34px;
+	height: 27px;
+	top: 335px;
+	left: 220px;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #C271FF;
+	font-weight: 600px;
+	font-size: 14px;
+	line-height: 27px;
+}
+
 .smile_imgs {
 	width: 255px;
 	height: 154px;
