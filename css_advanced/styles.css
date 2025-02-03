@@ -345,6 +345,9 @@
 	left: 38px;
 }
 
+/* END OF QUOTE SECTION */
+/* START OF VIDEO SECTION */
+
 .video_section {
 	display: flex;
 	flex-direction: column;
@@ -376,6 +379,35 @@
 	text-align: left;
 }
 
+.div_vid {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	color: #071629;
+	width: 350px;
+	height: 450px;
+	padding: 20px;
+	text-align: left;
+}
+
+.pic_name {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.name_phillip {
+	display: flex;
+	position: absolute;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #C271FF;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 27px;
+	width: 86px;
+	height: 27px;
+	left: 56px;
+}
 
 .smile_imgs {
 	width: 255px;
