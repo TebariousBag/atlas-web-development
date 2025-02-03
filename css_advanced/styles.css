@@ -404,6 +404,16 @@
 	margin-top: 50px;
 }
 
+.overlay_play {
+	display: flex;
+	position: absolute;
+	width: 64px;
+	height: 64px;
+	top: 65px;
+	left: 112px;
+	background-color: rgba(0, 0, 0, .0);
+}
+
 .pic_name {
 	display: flex;
 	flex-direction: row;
