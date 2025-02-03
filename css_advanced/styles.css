@@ -164,6 +164,7 @@
 	font-size: 14px;
 	line-height: 17.6px;
 	box-shadow: 0px 2px 20px 0px #00000080; /* for future, x offset, y offset, blur radius, spread */
+	cursor: pointer;
 }
 
 /* span html tag of just the word Learn */
@@ -558,7 +559,9 @@
 	margin-top: -20px;
 	margin-left: center;
 	text-align: center;
-	padding: 60px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 40px;
 }
 
 .smiley_imgs {
@@ -597,9 +600,14 @@
 	border: none;
 	margin-top: auto;
 	margin-left: center;
-	margin-bottom: 20px;
+	margin-bottom: 60px;
 	align-items: center;
 	justify-content: center;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 17.6px;
+	cursor: pointer;
 }
 
 .faq_section {
