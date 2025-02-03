@@ -405,7 +405,7 @@
 	line-height: 27px;
 	width: 86px;
 	height: 27px;
-	left: 56px;
+	left: 66px;
 	margin-left: 10px;
 }
 
@@ -418,6 +418,7 @@
 	line-height: 20.11px;
 	width: 106px;
 	height: 20px;
+	margin-top: 20px;
 	margin-left: 10px;
 }
 
@@ -431,6 +432,7 @@
 	line-height: 24px;
 	width: 242px;
 	height: 48px;
+	margin-top: 0px;
 	margin-left: 10px;
 
 }
@@ -445,7 +447,7 @@
 	display: flex;
 	position: absolute;
 	flex-direction: row;
-	top: 345px;
+	top: 335px;
 }
 
 .time {
@@ -453,7 +455,7 @@
 	position: absolute;
 	width: 34px;
 	height: 27px;
-	top: 330px;
+	top: 315px;
 	left: 220px;
 	font-family: 'Source Sans Pro', sans-serif;
 	color: #C271FF;
@@ -476,7 +478,7 @@
 .stars {
 	width: 15px;
 	height: 15px;
-	padding: 5px;
+	padding-right: 10px;
 }
 
 .members_section {
