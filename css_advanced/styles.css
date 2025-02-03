@@ -360,12 +360,27 @@
 }
 
 .h1_videos {
+	display: flex;
 	text-align: center;
 	justify-content: center;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 300;
 	font-size: 32px;
+	line-height: 40.22px;
 	color:  #071629;
+	margin-top: 100px;
 	margin-bottom: 20px;
+}
+
+.popular {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 40.22px;
+	color: #C271FF;
+	padding-left: 10px;
+	padding-right: 10px;
+
 }
 
 .video_div {
@@ -375,7 +390,7 @@
 	width: 1228px;
 	height: 450px;
 	height: auto;
-	padding: 20px;
+	padding: 0px;
 }
 
 .div_vid {
@@ -386,6 +401,7 @@
 	width: 350px;
 	height: 450px;
 	padding: 20px;
+	margin-top: 50px;
 }
 
 .pic_name {
